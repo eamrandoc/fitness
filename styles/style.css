@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shared items */
+.primary-color{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+
+
+
+
+
+li {
+    list-style: none;
+    
+}
+ul{
+    display: flex;
+}
+
+h1{
+    font-size: 4.88 rem;
+    font-weight: 900;
+    margin-bottom: 1.63 rem;
+}
+.bg-color{
+    background-color: black;
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.get-body{
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* Mobile Responsive Design (nax-width:592px) */
+@media screen and (max-width: 592px) {
+    header li{
+        display: none;
+    }
+}
