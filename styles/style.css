@@ -6,41 +6,68 @@
 .primary-color{
     color: white;
 }
-.flex{
-    display: flex;
-}
-
-
-
-
-
-li {
-    list-style: none;
-    
+.secondary-color{
+    color: rgb(230, 83, 60);
 }
 ul{
-    display: flex;
+   
 }
+li {
+    list-style: none;
+    margin-right: 3rem;
+    padding: .5rem auto;    
+}
+a{
+    text-decoration: none;
+    font-size: 1.13rem;
+}
+
 
 h1{
     font-size: 4.88 rem;
     font-weight: 900;
     margin-bottom: 1.63 rem;
 }
+.flex{
+    display: flex;
+}
+
 .bg-color{
     background-color: black;
 }
 
 
 
-
+/* header part start  */
 header{
-    display: flex;
+    
     justify-content: space-between;
+    padding-top: 57px;
+    margin: 0 190px auto;
 }
+.company-name{
+    font-size: 2.25rem;
+    font-weight: 800;
+
+}
+.home{
+    border: 2px solid  rgb(230, 83, 60);
+    background-color:  rgb(230, 83, 60);
+    border-radius: 46px;
+}
+/* header part end  */
+/* main part star  */
+/* get body part start */
 .get-body{
     justify-content: space-between;
 }
+.get-body-title{
+    width: 45%;
+    align-content: center;
+    text-align: left;
+    border: 5px solid red;
+}
+/* get body part end  */
 
 
 
