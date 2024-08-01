@@ -1,0 +1,89 @@
+
+
+
+
+
+@media screen and (max-width:572px){
+    *{
+        margin-left: 0;
+        padding: 0;
+    }
+    /* header part  */
+
+.header{
+    flex-direction: column;
+     
+}
+.menu{
+    display: none;
+}
+.humberg-icon{
+    display: block;
+}
+
+/* get body part start  */
+
+
+.get-body{
+    margin-top: 32px;
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 0; 
+}
+.get-body-title{
+    padding: 20px; 
+}
+
+.n500{
+    
+}
+.n350{
+
+}
+
+
+/* get body part end  */
+
+
+
+
+
+
+/* change your habbit start  */
+
+.change-your-habbit-images{
+    
+    flex-direction: column;
+        
+}
+
+/* change your habbit end  */
+
+
+
+
+
+.run{ 
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}

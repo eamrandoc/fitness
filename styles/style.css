@@ -1,84 +1,334 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
 }
-/* shared items */
-.primary-color{
+/* sharer items */
+h1{
+    font-size: 4.88rem;
+    font-weight: 900;
+    margin-bottom: 1.63 rem;
+}
+h2{
+    font-size: 3.0rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+h3{
+    font-size: 2.0rem;
+}
+h4{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 39px;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h6{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1rem;    
+    margin-bottom: 20px;
+}
+/* button list  */
+.primary-button{
     color: white;
+    background-color:  rgb(230, 83, 60);
+    border: none;
+    border-radius: 42px;
+    padding: 16px 48px;
+    margin-top: 34px;
 }
-.secondary-color{
-    color: rgb(230, 83, 60);
+.secondary-button{
+    color: white;
+    background-color:black;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 42px;
+    padding: 16px 48px;
+    margin-top: 34px;
 }
-ul{
-   
+.menu-button{
+    color: white;
+    background-color:  rgb(230, 83, 60);
+    border: none;
+    border-radius: 46px;
+    padding: 8px 20px;
 }
+
 li {
     list-style: none;
     margin-right: 3rem;
-    padding: .5rem auto;    
+    padding: .5rem auto;
+    gap: 20px;    
 }
 a{
     text-decoration: none;
     font-size: 1.13rem;
 }
 
-
-h1{
-    font-size: 4.88 rem;
-    font-weight: 900;
-    margin-bottom: 1.63 rem;
+/* font color  */
+.primary-color{
+    color: rgb(230,81,60);
 }
-.flex{
-    display: flex;
+.secondary-color{
+    color: rgb(255,255,255);
 }
-
-.bg-color{
-    background-color: black;
+.opacity{
+    opacity: 0.5;
 }
 
 
+.text-center{
+    text-align: center;
+}
 
-/* header part start  */
+
+
+
+/* header part start */
 header{
-    
+    background: linear-gradient(180.0deg, rgb(17,17,17), rgba(119,119,119,0) 100%);
+}
+.header{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
-    padding-top: 57px;
-    margin: 0 190px auto;
+    align-items: center;
+    padding-top: 58px;
+}
+.company{
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 120%;
+}
+.menu{
+    display: flex;
 }
 .company-name{
     font-size: 2.25rem;
     font-weight: 800;
+}
+.humberg-icon{
+    display: none;
+}
+/* header part end */
 
-}
-.home{
-    border: 2px solid  rgb(230, 83, 60);
-    background-color:  rgb(230, 83, 60);
-    border-radius: 46px;
-}
-/* header part end  */
-/* main part star  */
+
 /* get body part start */
 .get-body{
-    justify-content: space-between;
+    margin-top: 32px;
+    display: flex;   
+    position: relative;
 }
 .get-body-title{
-    width: 45%;
-    align-content: center;
-    text-align: left;
-    border: 5px solid red;
+    max-width: 520px;
+    align-content: center;  
+    padding: 64px 77px 76px 190px; 
+}
+#shape{
+    font-weight: normal;
+}
+.get-body-description{
+    margin: 28px 0;
+    opacity: 0.5;
+}
+.n500{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;   
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    left: 1050px;
+    top: 150px;
+    width: 193px;
+    padding: 12px;
+    text-align: center;
+}
+.n350{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter:20px;
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    left: 670px;
+    top: 400px;
+    width: 206px;
+    padding: 12px;
+    text-align: center;
 }
 /* get body part end  */
+main{
+    background-color: rgb(0,0,0);
+}
+/* change your habbit start  */
+.change-your-habbit{
+    max-width: 1044px;
+    margin: 0 auto;
+    padding:100px 0;
+}
+.change-your-habbit-description{
+    margin: 14px 0 58px;
+}
+.change-your-habbit-images{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;    
+}
+.change-your-habbit-image-border{
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 180px;
+}
+.habit-image-title{
+    margin: 26px 0 6px;
+}
+/* change your habbit end  */
+
+/* Run an Extra Mile Easily start */
+.run{
+    max-width: 1044px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    background-color: rgb(34,34,34);
+    border-radius: 18px;
+}
+.run-content{
+    padding: 40px 54px;
+}
+.run-description{
+    margin: 14px 0 34px;
+}
+.run-image{
+    padding: 30px 32px;    
+}
+.run-image >img{
+    width: 100%;    
+    border-radius: 18px;
+}
+/* Run an Extra Mile Easily end  */
+
+/* Training and Exercise start */
+.training{
+    max-width: 1044px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.training-description{
+    margin: 14px 0;
+}
+
+.image-grid{
+    display: grid; 
+}
+.image-grid >img{
+    width: 100%;
+    height: 214px;    
+}
+/* Training and Exercise end  */
+
+/* BMI calculator section start  */
+.bmi{
+    background-color: rgb(34,34,34);
+    display: flex;
+    gap: 140px;
+    justify-content: space-between;
+    padding: 52px 190px;
+}
+.bmi-w{
+    max-width: 310px;
+}
+table{    
+    border-collapse: collapse;
+    width: 310px;
+}
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+input{
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 8px 12px;
+    width: 250px;
+    height: 24px;
+    font-size: 1rem;
+}
+.sex{
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 8px 12px;
+    width: 295px;
+    height: 50px;
+    font-size: 1rem;
+}
+.factor{
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 8px 12px;
+    width: 620px;
+    height: 50px;
+    font-size: 1rem;
+}
+/* BMI calculator section end  */
+/* Meet our team start  */
+.team{
+    max-width: 1044px;
+    margin: 0 auto;
+}
+.team-colums{
+    display: grid;
+    grid-template-columns: repeat(3,.000001fr);
+    gap: 20px;
+}
+/* Meet our team end  */
+/* footer part start */
+footer{
+    background-color: rgb(34,34,34);
+    justify-content: space-between;
+    padding: 52px 190px;
+}
+.footer-colums{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 150px;
+} 
+.company-footer{
+    font-size: 4.38rem;
+    margin-bottom: 20px;
+
+}
+.footer-gap{
+    padding: 10px 0;    
+}
+hr{
+    width: 100%;
+    margin: 79px 0 36px 0;
+    color: rgb(185, 185, 185);
+}
+/* footer part end  */
 
 
-
-
-
-
-
-
-/* Mobile Responsive Design (nax-width:592px) */
-@media screen and (max-width: 592px) {
-    header li{
-        display: none;
-    }
+.hide{
+    display: none;
 }
