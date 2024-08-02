@@ -1,12 +1,9 @@
-
-
 @media screen and (max-width:572px){
     *{
         margin-left: 0;
         padding: 0;
     }
     /* header part  */
-
 .header{
    flex-direction: row;
    justify-content: space-between;
@@ -18,10 +15,7 @@
 .humberg-icon{
     display: block;
 }
-
 /* get body part start  */
-
-
 .get-body{
     margin-top: 0;
     display: flex; 
@@ -31,7 +25,6 @@
 .get-body-title{
     padding: 20px; 
 }
-
 .n500{
     left: 230px;
     top: 670px;
@@ -40,53 +33,27 @@
     left: 20px;
     top: 950px;
 } 
-
-
 /* get body part end  */
-
-
-
-
-
-
 /* change your habbit start  */
-
 .change-your-habbit-images{
     flex-direction: column;        
 }
-
-
 /* change your habbit end  */
-
-
-
-
-
 .run{ 
     flex-direction: column;
-    gap: 0px;
-    
+    gap: 0px;    
 }
-
-
 /* BMI calculator section start  */
 .bmi{
     flex-direction: column;
     gap: 40px;
     padding: 20px;
 }
-
-input{
-   
-   
-    width: 120px;
-    
-    
+input{   
+    width: 120px;    
 }
-.sex{
- 
-    width: 160px;
-  
+.sex{ 
+    width: 160px;  
 }
 .factor{   
     width: 350px;    
@@ -95,16 +62,14 @@ input{
     margin-left: 20px;
 }
 /* BMI calculator section end  */
-
-
 .team-colums{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    gap: 20px;   
+    gap: 20px;
+    padding: 50px;
 }
 /* Meet our team end  */
-
 footer{
     padding: 20px;
 }
@@ -112,25 +77,8 @@ footer{
     grid-template-columns: repeat(1,1fr);
     column-gap: 150px;
 } 
-
 /* footer part end  */
-
-
 .hide{
     display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
+}    
 }

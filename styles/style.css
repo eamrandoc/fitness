@@ -192,7 +192,8 @@ main{
 }
 .change-your-habbit-images{
     display: flex;
-    justify-content: space-evenly;
+    
+    justify-content: space-between;
     gap: 40px;    
 }
 .change-your-habbit-image-border{
@@ -299,18 +300,26 @@ input{
 .team-colums{
     display: grid;
     max-width: 1060px;
-    grid-template-columns: repeat(3, 326px);
-    grid-template-rows: repeat(3, 270px) ;
+    grid-template-columns: repeat(3, 1fr);   
     gap: 20px;
     overflow: hidden;
-   
+    background:rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 18px;
 }
 .team-colums > img{
     width: 100%;
     height: 100%;
 }
+.team-img-details{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+}
 .card{
     position: relative;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 18px;     
 }
 .trainer-name{
     position: absolute;
