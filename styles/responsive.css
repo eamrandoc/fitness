@@ -1,8 +1,5 @@
 
 
-
-
-
 @media screen and (max-width:572px){
     *{
         margin-left: 0;
@@ -11,8 +8,9 @@
     /* header part  */
 
 .header{
-    flex-direction: column;
-     
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 50px 20px;
 }
 .menu{
     display: none;
@@ -25,7 +23,7 @@
 
 
 .get-body{
-    margin-top: 32px;
+    margin-top: 0;
     display: flex; 
     flex-direction: column; 
     margin-left: 0; 
@@ -35,11 +33,13 @@
 }
 
 .n500{
-    
+    left: 230px;
+    top: 670px;
 }
 .n350{
-
-}
+    left: 20px;
+    top: 950px;
+} 
 
 
 /* get body part end  */
@@ -52,10 +52,9 @@
 /* change your habbit start  */
 
 .change-your-habbit-images{
-    
-    flex-direction: column;
-        
+    flex-direction: column;        
 }
+
 
 /* change your habbit end  */
 
@@ -65,13 +64,61 @@
 
 .run{ 
     flex-direction: column;
+    gap: 0px;
     
 }
 
 
+/* BMI calculator section start  */
+.bmi{
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+
+input{
+   
+   
+    width: 120px;
+    
+    
+}
+.sex{
+ 
+    width: 160px;
+  
+}
+.factor{   
+    width: 350px;    
+}
+.bmi button{
+    margin-left: 20px;
+}
+/* BMI calculator section end  */
 
 
+.team-colums{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;   
+}
+/* Meet our team end  */
 
+footer{
+    padding: 20px;
+}
+.footer-colums{
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 150px;
+} 
+
+/* footer part end  */
+
+
+.hide{
+    display: none;
+}
 
 
 
