@@ -16,6 +16,7 @@
     display: block;
     color: white;
     font-size: 1.5rem;
+    padding-right: 50px;
 }
 /* get body part start  */
 .get-body{
@@ -27,9 +28,12 @@
 .get-body-title{
     padding: 20px; 
 }
+.get-image{
+    padding-right: 0px;
+}
 .n500{
     left: 230px;
-    top: 670px;
+    top: 680px;
 }
 .n350{
     left: 20px;
