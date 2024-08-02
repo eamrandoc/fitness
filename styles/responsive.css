@@ -14,6 +14,8 @@
 }
 .humberg-icon{
     display: block;
+    color: white;
+    font-size: 1.5rem;
 }
 /* get body part start  */
 .get-body{
@@ -33,6 +35,7 @@
     left: 20px;
     top: 950px;
 } 
+
 /* get body part end  */
 /* change your habbit start  */
 .change-your-habbit-images{

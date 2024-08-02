@@ -162,9 +162,10 @@ header{
     top: 150px;
     width: 193px;
     padding: 12px;
-    text-align: center;
 }
 .n350{
+    display: flex;
+    gap: 10px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -175,7 +176,10 @@ header{
     top: 400px;
     width: 206px;
     padding: 12px;
-    text-align: center;
+}
+.circle{
+    color: rgb(230, 83, 60);
+    font-size: 2.5rem;
 }
 /* get body part end  */
 main{
