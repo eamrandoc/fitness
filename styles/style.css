@@ -265,8 +265,8 @@ main{
     justify-content: space-between;
     padding: 52px 190px;
 }
-.bmi-w{
-    max-width: 310px;
+.bmi-content{
+    padding: 0 140px;
 }
 table{    
     border-collapse: collapse;
