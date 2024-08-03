@@ -50,6 +50,33 @@
     flex-direction: column;
     gap: 0px;    
 }
+/* Training and Exercise start */
+.training{
+    padding: 20px;
+}
+.training-description{
+    margin: 20px 0;
+}
+.training-row-1{
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.training-row-2{   
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+.trainer-name-1{
+    padding-top: 55%;    
+}
+.trainer-name-3{
+    padding-top: 40%;    
+}
+.trainer-name-5{
+    padding-top: 50%;
+}
+/* Training and Exercise end  */
+
 /* BMI calculator section start  */
 .bmi{
     flex-direction: column;

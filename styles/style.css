@@ -237,22 +237,6 @@ main{
     border-radius: 18px;
 }
 /* Run an Extra Mile Easily end  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Training and Exercise start */
 .training{
     max-width: 1044px;
@@ -262,22 +246,6 @@ main{
 .training-description{
     margin: 14px 0 58px;
 }
-
-.image-grid{
-    display: grid; 
-}
-.image-grid >img{
-    width: 100%;
-    height: 214px;    
-}
-/* Training and Exercise end  */
-
-
-
-
-
-
-
 .training-row-1{
     display: grid;
     grid-template-columns: .25fr .45fr .30fr;
@@ -289,17 +257,13 @@ main{
     width: 100%;
     height: 100%;
 }
-
-
-
 .training-image-box{
     
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
-  
+    height: 100%; 
 }
 #training-image-1{
     background: rgba(6, 255, 210, 0.5);    
@@ -323,7 +287,6 @@ main{
     display: grid;
     grid-template-columns: .40fr .25fr .35fr;
 }
-
 .trainer-name-1{
     padding-top: 75%;
     text-align: center;
@@ -350,21 +313,10 @@ main{
     padding-top: 50%;
     padding-left: 5%;   
 }
-
-
-
-
-
 .bmi-calculator{
     padding-top: 80px;
 }
-
-
-
-
-
-
-
+/* Training and Exercise end  */
 
 /* BMI calculator section start  */
 .bmi{
