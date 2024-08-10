@@ -321,7 +321,7 @@ main{
 .bmi{
     background-color: rgb(34,34,34);
     display: flex;
-    gap: 100px;
+    gap: 10px;
     justify-content: space-between;
     padding: 52px 190px;
 }
