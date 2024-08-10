@@ -163,7 +163,7 @@ header{
     border-radius: 12px;   
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
-    left: 1320px;
+    left: 1080px;
     top: 150px;
     width: 193px;
     padding: 12px;
@@ -177,7 +177,7 @@ header{
     backdrop-filter:20px;
     background: rgba(48, 48, 48, 0.54);
     position: absolute;
-    left: 950px;
+    left: 750px;
     top: 400px;
     width: 206px;
     padding: 12px;
@@ -200,8 +200,7 @@ main{
     margin: 14px 0 58px;
 }
 .change-your-habbit-images{
-    display: flex;
-    
+    display: flex;    
     justify-content: space-between;
     gap: 40px;    
 }
@@ -322,7 +321,7 @@ main{
 .bmi{
     background-color: rgb(34,34,34);
     display: flex;
-    gap: 140px;
+    gap: 100px;
     justify-content: space-between;
     padding: 52px 190px;
 }
