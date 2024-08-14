@@ -28,17 +28,18 @@
 .get-body-title{
     padding: 20px; 
 }
+
 .get-image{
     padding-right: 0px;
 }
 .n500{
-    left: 230px;
-    top: 680px;
+    left: 210px;
+    top: 30px;
 }
 .n350{
-    left: 20px;
-    top: 950px;
-} 
+    left: 15px;
+    bottom: 250px;
+}  
 
 /* get body part end  */
 /* change your habbit start  */
