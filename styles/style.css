@@ -321,12 +321,12 @@ main{
 .bmi{
     background-color: rgb(34,34,34);
     display: flex;
-    gap: 10px;
+    gap: 50px;
     justify-content: space-between;
     padding: 52px 190px;
 }
 .bmi-content{
-    padding: 0 140px;
+    padding-right: 100px;
 }
 table{    
     border-collapse: collapse;
