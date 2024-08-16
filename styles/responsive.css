@@ -107,6 +107,9 @@ input{
     gap: 20px;
     padding: 50px;
 }
+.mobile-hide{
+    display:none;
+}
 /* Meet our team end  */
 footer{
     padding: 20px;
